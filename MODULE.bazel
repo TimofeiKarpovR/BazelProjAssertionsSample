@@ -1,0 +1,17 @@
+bazel_dep(name = "rules_xcodeproj", version = "2.9.2")
+bazel_dep(
+    name = "rules_swift",
+    version = "2.2.3",
+    repo_name = "build_bazel_rules_swift",
+)
+bazel_dep(
+    name = "rules_apple",
+    version = "3.13.0",
+    repo_name = "build_bazel_rules_apple",
+)
+bazel_dep(
+    name = "apple_support",
+    version = "1.17.1",
+    dev_dependency = True,
+    repo_name = "build_bazel_apple_support",
+)
