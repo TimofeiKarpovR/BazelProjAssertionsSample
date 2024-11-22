@@ -13,7 +13,7 @@ Problem: Test assertions are not shown in the code
 # Expected result
 <img width="800" alt="Screenshot 2024-11-22 at 12 40 38" src="https://github.com/user-attachments/assets/5aabbc0e-34cd-436f-96cf-7ac04b9a0af4">
 
-Screenshot was made with these changes:
+The screenshot was made with these changes:
 
 ```
 bazel_dep(
